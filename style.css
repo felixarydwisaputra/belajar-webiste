@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* STYLE CSS */
+
+body{
+    background-image: url(image/email-pattern.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menubar{
+    z-index: 1;
+    background-color: rgb(255, 171, 162);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 5px solid skyblue;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+
+.container{
+    width: 1000px;
+    background-color: #eaeaea;
+    margin: 100px auto;
+    position: relative;
+}
+
+.logo a{
+    text-decoration: none;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.logo a.ig{
+    top: 40px;
+    right: 40px;
+}
+
+.logo a.git{
+    top: 40px;
+    right: 100px;
+}
+
+.header{
+    padding: 20px;
+}
+
+.judul{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.header ul{
+    margin-top: 20px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: salmon;
+    padding: 5px;
+}
+
+.header ul li a:hover{
+    background-color: salmon;
+    color: white;
+}
+
+.hero{
+    height: 350px;
+    background-image: url(image/gambar.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid salmon;
+}
+
+.content{
+    padding: 20px;
+}
+
+.main{
+    width: 600px;
+    float: left;
+}
+
+.content .main h1{
+    font-size: 30px;
+    font-weight: bold;margin-bottom: 5px;
+    margin-bottom: -15px;
+}
+
+.content .main p:first-child{
+    font-weight: 500;
+}
+
+.content .main a{
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+}
+
+.main p{
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.sidebar{
+    width: 300px;
+    float: right;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.sidebar img{
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.sidebar p{
+    line-height: 20px;
+}
+
+.sidebar .berita{
+    margin: 40px 0;
+}
+
+.sidebar .berita h1{
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.footer{
+    background-color: #1a1a1aaa;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 200px;
+}
+
+.clear{
+    clear: both;
+}
